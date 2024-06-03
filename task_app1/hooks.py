@@ -4,6 +4,9 @@ app_publisher = "Nutan"
 app_description = "Js handeler app for Tutorial app.Part of my training task"
 app_email = "nuta@gmail.com"
 app_license = "123"
+doctype_js = {
+    "Article": "public/js/custom_article.js"
+}
 
 # Includes in <head>
 # ------------------
