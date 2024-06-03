@@ -9,7 +9,7 @@ frappe.ui.form.on('Article', {
             console.log("Issued Date is ", issuedDate);
             let timeDiff = currentDate.getTime() - issuedDate.getTime();
             let resultDate = Math.floor(timeDiff / (1000 * 3600 * 24));
-            console.log(resultDate);
+            console.log("Number of days since the item was issued: ",resultDate);
 
             frm.set_value('date', frappe.datetime.now_datetime());
             frappe.msgprint("Number of days since the item was issued: " + resultDate + " days");
