@@ -24,13 +24,18 @@ Ensure you have Frappe framework installed and the tutorial app set up.
 
    cd training_task_frappe_app
    bench --site <site-name> install-app training_task_frappe_app
+
+
 3.**Update Your Site**:
    bench --site <site-name> migrate
+ 
+## Usage
 
-Usage
 Add Date Field: Add a date field to the Article Doctype of the tutorial app. This field will be updated when the article is issued.
 
+
 Show Dialog: When an Article page is opened and its status is 'issued', a dialog will appear showing the number of days since the article was issued.
+
 
 Article Workflow: The Article Doctype has a workflow that allows each article to transition through the 'issue', 'return', and 'discarded' states.
 
