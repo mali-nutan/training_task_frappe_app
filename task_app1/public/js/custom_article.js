@@ -7,8 +7,8 @@ frappe.ui.form.on('Article', {
             console.log("Current Date is ", currentDate);
             let issuedDate = new Date(frm.doc.date);
             console.log("Issued Date is ", issuedDate);
-            var timeDiff = currentDate.getTime() - issuedDate.getTime();
-            var resultDate = Math.floor(timeDiff / (1000 * 3600 * 24));
+            let timeDiff = currentDate.getTime() - issuedDate.getTime();
+            let resultDate = Math.floor(timeDiff / (1000 * 3600 * 24));
             console.log(resultDate);
 
             frm.set_value('date', frappe.datetime.now_datetime());
