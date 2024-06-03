@@ -20,10 +20,11 @@ Ensure you have Frappe framework installed and the tutorial app set up.
    ```bash
    git clone https://github.com/mali-nutan/training_task_frappe_app.git
 
-2. **Install the App**:
-
+1. **Install the App**:
+   ```bash
    cd training_task_frappe_app
-   bench --site <site-name> install-app training_task_frappe_app
+   bench --site [your-site-name] install-app training_task_frappe_app
+
 
 
 3.**Update Your Site**:
