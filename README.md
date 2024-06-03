@@ -1,7 +1,21 @@
-## Task App1
+# Frappe External JS Handler App
 
-Js handeler app for Tutorial app.Part of my training task
+This Frappe app is designed to create an external JavaScript handler for another app. The handler adds and manages dates for the Article Doctype in the tutorial app, updating the date when an article is issued and displaying the number of days since issuance.
 
-#### License
+## Features
 
-123
+- **Date Management**: Adds a date field to the Article Doctype in the tutorial app and updates it when the article is issued.
+- **Status Dialog**: Displays a dialog showing the number of days since the article was issued when the article page is opened and its status is issued.
+- **Workflow**: Implements a workflow for the Article Doctype, allowing articles to move through 'issue', 'unissue', and 'discarded' states.
+
+## Installation
+
+### Prerequisites
+
+Ensure you have Frappe framework installed and the tutorial app set up.
+
+### Steps
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/mali-nutan/training_task_frappe_app.git
