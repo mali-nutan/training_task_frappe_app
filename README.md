@@ -20,16 +20,16 @@ Ensure you have Frappe framework installed and the tutorial app set up.
    ```bash
    git clone https://github.com/mali-nutan/training_task_frappe_app.git
 
-1. **Install the App**:
+2. **Install the App**:
    ```bash
    cd training_task_frappe_app
    bench --site [your-site-name] install-app training_task_frappe_app
 
-
-
-3.**Update Your Site**:
+3. **Update Your Site**:
+   ```bash
    bench --site <site-name> migrate
- 
+
+
 ## Usage
 
 Add Date Field: Add a date field to the Article Doctype of the tutorial app. This field will be updated when the article is issued.
